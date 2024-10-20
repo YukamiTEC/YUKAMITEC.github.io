@@ -61,6 +61,12 @@
             text-align: center;
             color: #999;
         }
+        /* Fondo para el contenido de las secciones */
+        .content-background {
+            background-color: #2c2c2c; /* Color diferente al fondo general */
+            padding: 2rem;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
@@ -85,64 +91,70 @@
         </div>
     </nav>
 
+    <!-- Título Grande: Inteligencia Artificial -->
+    <section class="container my-5">
+        <div class="text-center">
+            <h1 class="display-3 fw-bold text-highlight mb-3">Inteligencia Artificial</h1>
+            <hr class="w-75 mx-auto border-2 border-highlight">
+            <p class="lead" style="color: #cccccc; max-width: 800px; margin: 0 auto;">
+                Un recorrido por los fundamentos y metodologías que impulsan los avances en la creación de sistemas inteligentes.
+            </p>
+        </div>
+    </section>
 
-<!-- Título Grande: Inteligencia Artificial -->
-<section id="principios" class="container my-5">
-    <div class="text-center">
-        <h1 class="display-3 fw-bold text-highlight mb-3">Inteligencia Artificial</h1>
-        <hr class="w-75 mx-auto border-2 border-highlight">
-        <p class="lead" style="color: #cccccc; max-width: 800px; margin: 0 auto;">
-            Un recorrido por los fundamentos y metodologías que impulsan los avances en la creación de sistemas inteligentes.
-        </p>
-    </div>
-</section>
+    <!-- Sección 2.1: Principios y Metodología de la Inteligencia Artificial -->
+    <section id="principios" class="container">
+        <div class="content-background">
+            <h2 class="section-header text-highlight">2.1 Principios y Metodología de la Inteligencia Artificial</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image-container">
+                        <img src="IMG/DS.png" alt="Imagen Principios IA">
+                    </div>
+                </div>
+                <div class="col-lg-6 section-content">
+                    <p>
+                        La <span class="text-highlight">Inteligencia Artificial</span> (IA) es un campo de la informática que se centra en crear sistemas capaces de realizar tareas que normalmente requieren inteligencia humana, como el razonamiento, el aprendizaje, la percepción y la toma de decisiones.
+                    </p>
+                    <p><strong>Razonamiento Lógico:</strong> Utiliza algoritmos y reglas para replicar el pensamiento humano.</p>
+                    <p><strong>Aprendizaje:</strong> Sistemas que pueden aprender y mejorar a partir de datos (supervisado, no supervisado, por refuerzo).</p>
+                    <p><strong>Percepción:</strong> Interpretación de datos sensoriales como imágenes, sonidos y otros.</p>
+                    <p><strong>Acción:</strong> Interacción y modificación del entorno mediante agentes autónomos.</p>
+                    
+                    <!-- Complemento: Principios de la IA -->
+                    <h5 class="text-highlight">Principios Clave de la Inteligencia Artificial</h5>
+                    <ul>
+                        <li><strong>Autonomía:</strong> Los sistemas pueden tomar decisiones sin intervención humana directa, como agentes autónomos que actúan en entornos complejos.</li>
+                        <li><strong>Adaptabilidad:</strong> La capacidad de ajustarse a situaciones cambiantes o mejorar el rendimiento a lo largo del tiempo, utilizando el aprendizaje automático.</li>
+                        <li><strong>Robustez:</strong> Los modelos de IA deben ser resistentes a errores o incertidumbres en los datos, asegurando un funcionamiento correcto.</li>
+                        <li><strong>Generalización:</strong> Los sistemas de IA deben ser capaces de aplicar lo aprendido en un contexto a situaciones similares pero no idénticas.</li>
+                        <li><strong>Transparencia:</strong> En los sistemas de IA complejos, es importante poder explicar cómo toman decisiones, promoviendo confianza y entendimiento.</li>
+                    </ul>
 
-<!-- Sección 2.1: Principios y Metodología de la Inteligencia Artificial -->
-<section id="principios" class="container">
-    <h2 class="section-header text-highlight">2.1 Principios y Metodología de la Inteligencia Artificial</h2>
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="image-container">
-                <img src="IMG/DS.png" alt="Imagen Principios IA">
+                    <h5 class="text-highlight">Metodología</h5>
+                    <ul>
+                        <li>Definición del Problema: Identificación y definición clara del problema.</li>
+                        <li>Recopilación de Datos: Reunión de datos relevantes y de calidad.</li>
+                        <li>Preprocesamiento de Datos: Limpieza y preparación de los datos.</li>
+                        <li>Selección del Modelo: Elección del algoritmo adecuado.</li>
+                        <li>Entrenamiento: Entrenamiento del modelo con los datos recopilados.</li>
+                        <li>Evaluación: Medición del rendimiento y ajustes necesarios.</li>
+                        <li>Implementación: Despliegue del modelo en un entorno real.</li>
+                        <li>Mantenimiento: Monitoreo y actualización continua del modelo.</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="col-lg-6 section-content">
-            <p>
-                La <span class="text-highlight">Inteligencia Artificial</span> (IA) es un campo de la informática que se centra en crear sistemas capaces de realizar tareas que normalmente requieren inteligencia humana, como el razonamiento, el aprendizaje, la percepción y la toma de decisiones.
-            </p>
-            <p><strong>Razonamiento Lógico:</strong> Utiliza algoritmos y reglas para replicar el pensamiento humano.</p>
-            <p><strong>Aprendizaje:</strong> Sistemas que pueden aprender y mejorar a partir de datos (supervisado, no supervisado, por refuerzo).</p>
-            <p><strong>Percepción:</strong> Interpretación de datos sensoriales como imágenes, sonidos y otros.</p>
-            <p><strong>Acción:</strong> Interacción y modificación del entorno mediante agentes autónomos.</p>
-            
-            <!-- Complemento: Principios de la IA -->
-            <h5 class="text-highlight">Principios Clave de la Inteligencia Artificial</h5>
-            <ul>
-                <li><strong>Autonomía:</strong> Los sistemas pueden tomar decisiones sin intervención humana directa, como agentes autónomos que actúan en entornos complejos.</li>
-                <li><strong>Adaptabilidad:</strong> La capacidad de ajustarse a situaciones cambiantes o mejorar el rendimiento a lo largo del tiempo, utilizando el aprendizaje automático.</li>
-                <li><strong>Robustez:</strong> Los modelos de IA deben ser resistentes a errores o incertidumbres en los datos, asegurando un funcionamiento correcto.</li>
-                <li><strong>Generalización:</strong> Los sistemas de IA deben ser capaces de aplicar lo aprendido en un contexto a situaciones similares pero no idénticas.</li>
-                <li><strong>Transparencia:</strong> En los sistemas de IA complejos, es importante poder explicar cómo toman decisiones, promoviendo confianza y entendimiento.</li>
-            </ul>
+    </section>
 
-            <h5 class="text-highlight">Metodología</h5>
-            <ul>
-                <li>Definición del Problema: Identificación y definición clara del problema.</li>
-                <li>Recopilación de Datos: Reunión de datos relevantes y de calidad.</li>
-                <li>Preprocesamiento de Datos: Limpieza y preparación de los datos.</li>
-                <li>Selección del Modelo: Elección del algoritmo adecuado.</li>
-                <li>Entrenamiento: Entrenamiento del modelo con los datos recopilados.</li>
-                <li>Evaluación: Medición del rendimiento y ajustes necesarios.</li>
-                <li>Implementación: Despliegue del modelo en un entorno real.</li>
-                <li>Mantenimiento: Monitoreo y actualización continua del modelo.</li>
-            </ul>
-        </div>
-    </div>
-</section>
+    <br><br> <!-- Dos saltos de línea para agregar espacio -->
 
     <!-- Sección de imágenes (Thumbnails) -->
     <section class="container">
-        <h3 class="text-highlight">Temas Relacionados</h3>
+        <center>
+        <h2 class="text-highlight">Temas Relacionados de la Inteligencia Artificial</h2>
+        </center>
+        <br>
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
@@ -174,83 +186,61 @@
         </div>
     </section>
 
+
+    <br><br> <!-- Dos saltos de línea para agregar espacio -->
+
+
     <!-- Sección 2.2: Paradigmas de la Inteligencia Artificial -->
-<!-- Sección 2.2: Paradigmas de la Inteligencia Artificial -->
-<section id="paradigmas" class="container">
-    <h2 class="section-header text-highlight">2.2 Paradigmas de la Inteligencia Artificial</h2>
-    <div class="row text-and-image">
-        <div class="col-lg-6">
-            <div class="image-container">
-                <img src="IMG/Ximena.png" alt="Imagen Paradigmas IA">
+    <section id="paradigmas" class="container">
+        <div class="content-background">
+            <h2 class="section-header text-highlight">2.2 Paradigmas de la Inteligencia Artificial</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image-container">
+                        <img src="IMG/Ximena.png" alt="Imagen Paradigmas IA">
+                    </div>
+                </div>
+                <div class="col-lg-6 section-content">
+                    <p>
+                        Los <span class="text-highlight">paradigmas de la Inteligencia Artificial</span> son enfoques que definen cómo una máquina puede aprender y resolver problemas. Estos paradigmas se dividen en enfoques clásicos y modernos, cada uno con diferentes filosofías y técnicas.
+                    </p>
+                    <h5 class="text-highlight">Paradigmas Clásicos</h5>
+                    <ul>
+                        <li>
+                            <strong>IA Simbólica (IA Clásica):</strong> 
+                            Este enfoque se basa en la manipulación de símbolos y el uso de reglas lógicas. Los sistemas expertos son un ejemplo clásico, donde se codifican conocimientos específicos para resolver problemas en dominios concretos.
+                            <ul>
+                                <li><em>Ejemplo:</em> MYCIN, un sistema experto para diagnosticar enfermedades infecciosas.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>IA Conectivista:</strong> 
+                            Basado en redes neuronales artificiales, este paradigma busca emular la forma en que el cerebro humano procesa la información. Es eficaz para tareas que requieren reconocimiento de patrones.
+                            <ul>
+                                <li><em>Ejemplo:</em> Redes neuronales convolucionales (CNN) utilizadas en reconocimiento de imágenes.</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h5 class="text-highlight">Paradigmas Modernos</h5>
+                    <ul>
+                        <li><strong>Aprendizaje Profundo:</strong> Una rama avanzada del aprendizaje automático que utiliza redes neuronales profundas para analizar grandes volúmenes de datos. Es el paradigma detrás de avances como el reconocimiento de voz y el procesamiento de lenguaje natural.</li>
+                        <li><strong>Aprendizaje por Refuerzo:</strong> En este enfoque, los agentes aprenden a tomar decisiones mediante la interacción con su entorno, optimizando las acciones en función de una recompensa acumulada.</li>
+                        <li><strong>Sistemas Híbridos:</strong> Combina múltiples enfoques, integrando lo mejor de diferentes paradigmas para resolver problemas complejos de manera más efectiva.</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="col-lg-6 section-content">
-            <p>
-                Los <span class="text-highlight">paradigmas de la Inteligencia Artificial</span> son enfoques que definen cómo una máquina puede aprender y resolver problemas. Estos paradigmas se dividen en enfoques clásicos y modernos, cada uno con diferentes filosofías y técnicas.
-            </p>
-            <h5 class="text-highlight">Paradigmas Clásicos</h5>
-            <ul>
-                <li>
-                    <strong>IA Simbólica (IA Clásica):</strong> 
-                    Este enfoque se basa en la manipulación de símbolos y el uso de reglas lógicas. Los sistemas expertos son un ejemplo clásico, donde se codifican conocimientos específicos para resolver problemas en dominios concretos.
-                    <ul>
-                        <li><em>Ejemplo:</em> MYCIN, un sistema experto para diagnosticar enfermedades infecciosas.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>IA Conectivista:</strong> 
-                    Basado en redes neuronales artificiales, este paradigma busca emular la forma en que el cerebro humano procesa la información. Es eficaz para tareas que requieren reconocimiento de patrones.
-                    <ul>
-                        <li><em>Ejemplo:</em> Redes neuronales convolucionales (CNN) utilizadas en reconocimiento de imágenes.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>IA Evolutiva:</strong> 
-                    Utiliza algoritmos inspirados en los procesos de evolución biológica, como la selección natural. Estos algoritmos buscan soluciones óptimas a problemas complejos.
-                    <ul>
-                        <li><em>Ejemplo:</em> Algoritmos genéticos que se aplican en optimización y diseño.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>IA Basada en el Comportamiento:</strong> 
-                    Se centra en el comportamiento observable en lugar de los procesos internos. Esto es relevante en la robótica, donde los robots aprenden a interactuar con su entorno.
-                    <ul>
-                        <li><em>Ejemplo:</em> Robots que aprenden a navegar en entornos desconocidos.</li>
-                    </ul>
-                </li>
-            </ul>
+    </section>
 
-            <h5 class="text-highlight">Paradigmas Modernos</h5>
-            <ul>
-                <li>
-                    <strong>Aprendizaje Automático:</strong> 
-                    Este enfoque se centra en el desarrollo de algoritmos que permiten a las máquinas aprender a partir de datos sin ser programadas explícitamente. Incluye métodos como el aprendizaje supervisado, no supervisado y por refuerzo.
-                </li>
-                <li>
-                    <strong>Aprendizaje Profundo:</strong> 
-                    Un subcampo del aprendizaje automático que utiliza arquitecturas de redes neuronales profundas para modelar patrones complejos en grandes conjuntos de datos.
-                </li>
-                <li>
-                    <strong>IA Distribuida:</strong> 
-                    En este paradigma, las máquinas colaboran entre sí para resolver problemas, lo que es útil en sistemas de inteligencia colectiva y en aplicaciones de Internet de las Cosas (IoT).
-                </li>
-            </ul>
-
-            <h5 class="text-highlight">Puntos a destacar</h5>
-            <ul>
-                <li>Adaptabilidad: La IA puede adaptarse y mejorar con el tiempo, lo que permite una evolución continua de las capacidades de los sistemas.</li>
-                <li>Interdisciplinariedad: La IA se nutre de muchos campos como la psicología, la neurociencia y las matemáticas, lo que enriquece su desarrollo.</li>
-                <li>Impacto Social: Tiene el potencial de transformar industrias y la vida cotidiana, pero también plantea cuestiones éticas y sociales que deben ser abordadas, como la privacidad, el sesgo algorítmico y el futuro del trabajo.</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-
+    <br><br> <!-- Dos saltos de línea para agregar espacio -->
 
     <!-- Sección de imágenes (Thumbnails) -->
     <section class="container">
-        <h3 class="text-highlight">Temas Relacionados</h3>
+        <center>
+        <h2 class="text-highlight">Temas Relacionados sobre los Paradigmas</h2>
+        </center>
+        <br>
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
@@ -282,6 +272,8 @@
         </div>
     </section>
 
+    <br><br> <!-- Dos saltos de línea para agregar espacio -->
+
 <!-- Sección de Información del Alumno -->
 <section class="container mt-5">
     <div class="card text-white bg-dark mb-3">
@@ -303,13 +295,12 @@
     </div>
 </section>
 
-
     <!-- Pie de página -->
     <footer class="footer">
         <p>&copy; YUKAMI 2024 - Inteligencia Artificial.</p>
     </footer>
 
-    <!-- Bootstrap JS and dependencies -->
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
